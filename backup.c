@@ -26,26 +26,12 @@ int main () {
     }
 
     // Navio 2
+
     int linha_navio2 = 1; // Linha 2
     int coluna_navio2 = 7; // Coluna H
     for (int i = linha_navio2; i < linha_navio2 + 5; i++) {
         tabuleiro[i][coluna_navio2] = 3;
     }
-
-    // Navio 3
-    int linha_navio3 = 0;
-    int coluna_navio3 = 2;
-    for (int i = 0; i < 4; i++) {
-        tabuleiro[linha_navio3 + i][coluna_navio3 + i] = 3;
-    }
-
-    // Navio 4
-    int linha_navio4 = 6;
-    int coluna_navio4 = 4;
-    for (int i = 0; i < 3; i++) {
-        tabuleiro[linha_navio4 + i][coluna_navio4 - i] = 3;
-    }
-
 
     for (int i = 0; i < 10; i++) { //for externo percorre as linhas
 
